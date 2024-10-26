@@ -1,0 +1,204 @@
+header {
+    background-color: rgba(32, 32, 32, 0.527);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+
+}
+
+.bar ul a{
+
+    text-decoration: none;
+    color: rgb(223, 177, 169);
+    font-size: 15px;
+    font-weight: 300;
+    padding: 1px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.bar a:hover{
+    color: rgb(214, 198, 198);
+}
+
+section{
+    padding: 100px 200px; 
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(bg4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.main h2{
+
+    color: rgb(214, 205, 205);
+    font-size: 1.4em;
+    font-weight: 500px;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: 800px;
+
+}
+
+.main h3{
+    color: #9c635f;
+    font-size: 2em;
+    font-weight: 700px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.social-icons  {
+
+    padding: 10px 20px; 
+    padding-top: 1.2em 1.2em;   
+
+}
+
+.main-btn{
+    color: cornsilk;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 900px;
+    justify-content: space-between;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background-color: #9c635f49 ;
+    transition: 0.7s ease ;
+}
+.main-btn:hover{
+    background-color: #9c635f;
+    transform: scale(1.1 );
+
+}
+.but1 {
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 1,8;
+    outline: transparent;
+    padding: 0.1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 1.2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    transition: 0.7s ease;
+}
+.but1:hover{
+    transform: scale(1.1);
+}
+
+.but1:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.products h2 {
+    color: #9c635f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    
+}
+
+.products p {
+    color: #9c635f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.products  {
+    padding: 0;
+    border: none;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    size-adjust: auto;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #ef476642, #ff995a48);
+    border: 0;
+    border-radius: 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 1,8;
+    outline: transparent;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 1.2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    padding-bottom: 0px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    transition: 0.7s ease;
+    margin-bottom: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.about1 {
+    width: 100%;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.imgzoom {
+    transition: 0.7s ease;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.imgzoom:hover{
+    transform: scale(1.1);
+}
+
